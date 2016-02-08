@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "reduxBoiler1",
+    "style": "scss",
+    "postcss": false
+  }
+}
