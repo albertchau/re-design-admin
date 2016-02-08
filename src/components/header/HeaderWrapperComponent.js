@@ -15,12 +15,18 @@ class HeaderWrapperComponent extends React.Component {
             <header className='header-wrapper'>
                 <div className="wrapper">
                     <div className="top-header-wrapper">
-                        top
-                        <div className="">
+                        <div className="logo">
+                            <img className="logo-icon" src="/styles/sera-logo.png"></img>
+                            <img className="logo-text" src="/styles/sera-text.png"></img>
                         </div>
-                        <div className="">
+                        <div className="title">
+                            Jobs
                         </div>
-                        <div className="">
+                        <div className="avatar">
+                            <div className="avatar-text">
+                            </div>
+                            <div className="avatar-icon">
+                            </div>
                         </div>
                     </div>
                     <div className="bottom-header-wrapper">

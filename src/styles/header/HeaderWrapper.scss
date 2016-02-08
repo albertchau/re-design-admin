@@ -1,14 +1,15 @@
-@import url('../variables.scss');
+@import '../variables';
 
 .header-wrapper {
-  font-family: 'CircularStd', sans-serif;
+  font-family: 'CircularStd',  sans-serif;
   font-weight: 500;
-  border: 1px solid #f00;
+  //border: 1px solid #f00;
   position: fixed;
   width: 100%;
-  background-color: blue;
+  background-color: $slateBlue;
   height: 150px;
-  div { border: red 1px; }
+
+  //div { border: red 1px; }
 
   .wrapper {
     width: 800px;
@@ -19,37 +20,56 @@
     align-items: flex-start;
     height: 150px;
     margin: auto;
+
+    .top-header-wrapper {
+      width: 100%;
+      order: 1;
+      flex-grow: 1;
+      display: flex;
+      //background-color: #5fff30;
+
+      .logo {
+        flex-grow: 1;
+        .logo-text {
+          height: 40px;
+          width: auto;
+        }
+        .logo-icon {
+          height: 40px;
+          width: auto;
+        }
+      }
+      .title {
+        flex-grow: 1;
+      }
+      .avatar {
+        flex-grow: 1;
+      }
+    }
+
+    .bottom-header-wrapper {
+      width: 80%;
+      order: 2;
+      flex-grow: 2;
+      color: $lightBlue;
+      //background-color: #ff4a4a;
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: row nowrap;
+
+      .header-tab {
+        flex-grow: 1;
+        vertical-align: middle;
+        display: inline-block;
+        //background-color: rgba(78, 98, 156, 0.49);
+
+        .header-tab-button {
+          flex-grow: 1;
+          vertical-align: middle;
+          display: inline-block;
+          //background-color: rgba(143, 156, 80, 0.49);
+        }
+      }
+    }
   }
 }
-
-.header-tab {
-  flex-grow: 1;
-  vertical-align: middle;
-  display: inline-block;
-  background-color: rgba(78, 98, 156, 0.49);
-}
-
-.header-tab-button {
-  flex-grow: 1;
-  vertical-align: middle;
-  display: inline-block;
-  background-color: rgba(143, 156, 80, 0.49);
-}
-
-.top-header-wrapper {
-  width: 100%;
-  order: 1;
-  flex-grow: 1;
-  background-color: #5fff30;
-}
-
-.bottom-header-wrapper {
-  width: 80%;
-  order: 2;
-  flex-grow: 2;
-  background-color: #ff4a4a;
-  display: flex;
-  justify-content: flex-start;
-  flex-flow: row nowrap;
-}
-

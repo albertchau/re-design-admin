@@ -1,14 +1,10 @@
-@import url("../variables.scss");
 .header-wrapper {
-  font-family: 'CircularStd', sans-serif;
+  font-family: 'CircularStd',  sans-serif;
   font-weight: 500;
-  border: 1px solid #f00;
   position: fixed;
   width: 100%;
-  background-color: blue;
+  background-color: #074f7b;
   height: 150px; }
-  .header-wrapper div {
-    border: red 1px; }
   .header-wrapper .wrapper {
     width: 800px;
     display: flex;
@@ -18,32 +14,38 @@
     align-items: flex-start;
     height: 150px;
     margin: auto; }
-
-.header-tab {
-  flex-grow: 1;
-  vertical-align: middle;
-  display: inline-block;
-  background-color: rgba(78, 98, 156, 0.49); }
-
-.header-tab-button {
-  flex-grow: 1;
-  vertical-align: middle;
-  display: inline-block;
-  background-color: rgba(143, 156, 80, 0.49); }
-
-.top-header-wrapper {
-  width: 100%;
-  order: 1;
-  flex-grow: 1;
-  background-color: #5fff30; }
-
-.bottom-header-wrapper {
-  width: 80%;
-  order: 2;
-  flex-grow: 2;
-  background-color: #ff4a4a;
-  display: flex;
-  justify-content: flex-start;
-  flex-flow: row nowrap; }
+    .header-wrapper .wrapper .top-header-wrapper {
+      width: 100%;
+      order: 1;
+      flex-grow: 1;
+      display: flex; }
+      .header-wrapper .wrapper .top-header-wrapper .logo {
+        flex-grow: 1; }
+        .header-wrapper .wrapper .top-header-wrapper .logo .logo-text {
+          height: 40px;
+          width: auto; }
+        .header-wrapper .wrapper .top-header-wrapper .logo .logo-icon {
+          height: 40px;
+          width: auto; }
+      .header-wrapper .wrapper .top-header-wrapper .title {
+        flex-grow: 1; }
+      .header-wrapper .wrapper .top-header-wrapper .avatar {
+        flex-grow: 1; }
+    .header-wrapper .wrapper .bottom-header-wrapper {
+      width: 80%;
+      order: 2;
+      flex-grow: 2;
+      color: #2688c6;
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: row nowrap; }
+      .header-wrapper .wrapper .bottom-header-wrapper .header-tab {
+        flex-grow: 1;
+        vertical-align: middle;
+        display: inline-block; }
+        .header-wrapper .wrapper .bottom-header-wrapper .header-tab .header-tab-button {
+          flex-grow: 1;
+          vertical-align: middle;
+          display: inline-block; }
 
 /*# sourceMappingURL=HeaderWrapper.css.map */

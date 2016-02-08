@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import HeaderWrapperComponent from '../components/header/HeaderWrapperComponent';
 import { Router, Route /*, IndexRoute, Redirect, Link, IndexLink */} from 'react-router';
+require('styles/App.css');
 
 
 class App extends Component {

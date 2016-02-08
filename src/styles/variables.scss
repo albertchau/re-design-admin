@@ -1,55 +1,13 @@
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-Book.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-Medium.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-Bold.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-Black.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-BookItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-MediumItalic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-BoldItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('fonts/CircularStd-BlackItalic.ttf') format('truetype');
-  font-weight: 600;
-  font-style: italic;
-}
-
 $slateBlue: #074f7b;
+$slateBlue-1: #074f7b;
+$slateBlue-2: #074f7b;
+$slateBlue-3: #074f7b;
+$slateBlue-4: #074f7b;
 $lightBlue: #2688c6;
+$lightBlue-1: #2688c6;
+$lightBlue-2: #2688c6;
+$lightBlue-3: #2688c6;
+$lightBlue-4: #2688c6;
 $greenSlate: #00a390;
 $darkSlate: #586e88;
 $lightSlate: #d1d2d4;
